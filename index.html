@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foodie - Supper delicious Burger in town!</title>
+  <title>Foodie</title>
 
   <!-- 
     - favicon
@@ -40,23 +40,23 @@
   <!-- 
     - #HEADER
   -->
-  
+
   <header class="header" data-header>
     <div class="container">
 
       <h1>
-        <a href="#" class="logo">Foodie<span class="span"> .</span></a>
+        <a href="#" class="logo">Foodie<span class="span">.</span></a>
       </h1>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
 
           <li class="nav-item">
-            <a href="#home" class="navbar-link" ShopAbout Usdata-nav-link>Inicio</a>
+            <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
           </li>
 
           <li class="nav-item">
-            <a href="#about" class="navbar-link" data-nav-link>Sobre nós</a>
+            <a href="#about" class="navbar-link" data-nav-link>Sobre nos</a>
           </li>
 
           <li class="nav-item">
@@ -64,12 +64,11 @@
           </li>
 
           <li class="nav-item">
-            <a href="#blog" class="navbar-link" data-nav-link>Blogue</a>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
           </li>
 
           <li class="nav-item">
-            <a href="#" class="navbar-link" data-nav-link>Contate-nos
-            </a>
+            <a href="#" class="navbar-link" data-nav-link>Contate-nos</a>
           </li>
 
         </ul>
@@ -92,14 +91,18 @@
     </div>
   </header>
 
+
+
+
+
   <!-- 
     - #SEARCH BOX
   -->
 
-  <div class="search-container active" data-search-container>
+  <div class="search-container" data-search-container>
 
     <div class="search-box">
-      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+      <input type="search" name="search" aria-label="Search here" placeholder="Digite palavras-chave aqui..."
         class="search-input">
 
       <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
@@ -111,39 +114,49 @@
 
   </div>
 
-   <main>
+
+
+
+
+  <main>
     <article>
 
-        <!-- 
+      <!-- 
         - #HERO
       -->
 
-        <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg');">
-          <div class="container">
+      <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
 
-            <div class="hero-container">
-              <p class="hero-subtitle">Coma, durma e</p>
-              <h2 class="h1 hero-title">Ceia delicioso Burger na cidade!</h2>
-              <p class="hero-text">Alimento é qualquer substância consumida para
-                fornecer suporte nutricional para um organismo.
-                Reserve uma mesa</p>
+          <div class="hero-content">
 
-              <button class="btn">Reserve uma mesa</button>
+            <p class="hero-subtitle">Coma, durma e</p>
 
-              <figure class="hero-banner">
-                <img src="assets/images/hero-banner.png" alt="Burger" width="700" height="637" loading="lazy" class="w-100 hero-img">
+            <h2 class="h1 hero-title">Ceia delicioso Burger na cidade!</h2>
 
-                <img src="./assets/images/hero-banner.png" width="700" height="637" loading="lazy" alt="Burger"
-              class="w-100 hero-img">
-              </figure>
-            </div>
+            <p class="hero-text">Alimento é qualquer substância consumida para fornecer suporte nutricional a um organismo.</p>
+
+            <button class="btn">Reserve uma mesa</button>
 
           </div>
 
-        </section>
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
+              class="w-100 hero-img-bg">
 
-        <!-- 
-        - #HERO
+            <img src="./assets/images/hero-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 hero-img">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
       -->
 
       <section class="section section-divider white promo">
@@ -169,13 +182,13 @@
                   </svg>
                 </div>
 
-                <h3 class="h3 card-title">Maxican Pizza</h3>
+                <h3 class="h3 card-title">Pizza Mexicana</h3>
 
                 <p class="card-text">
-                  Is a spicy and filling pizza that combines ingredients such as ground beef, peppers, jalapeño peppers, onion rings, cilantro and oregano. The dough is crispy and covered with tomato sauce and melted mozzarella. 
+                  Que tal uma noite mexicana? Nossa Pizza Mexicana é perfeita para compartilhar com amigos e familiares. Com uma combinação vibrante de sabores e ingredientes frescos, ela transforma qualquer encontro em uma festa.
                 </p>
 
-                <img src="./assets/images/pizza-mexicana.webp" width="300" height="300" loading="lazy" alt="Maxican Pizza"
+                <img src="https://pizzapop.com.mx/cdn/shop/products/image_5543c474-19c8-4cd1-ae5c-1c3543901b89.png?v=1680856558" width="300" height="300" loading="lazy" alt="Maxican Pizza"
                   class="w-100 card-banner">
 
               </div>
@@ -199,14 +212,13 @@
                   </svg>
                 </div>
 
-                <h3 class="h3 card-title">Soft Drinks</h3>
+                <h3 class="h3 card-title">Refrigerantes</h3>
 
                 <p class="card-text">
-                  A perfect combination between refreshment and intensity. Premium tequila, orange liqueur and a citrus twist from fresh lime juice. Served in a salt-rimmed glass and garnished with a slice of lemon. A vibrant classic that never goes out of style.
-
+                  A combinação perfeita para sua pizza quentinha! Nossos refrigerantes gelados complementam os sabores da sua pizza, proporcionando uma experiência ainda mais saborosa. Experimente!
                 </p>
 
-                <img src="./assets/images/drinks.webp" width="300" height="300" loading="lazy" alt="Soft Drinks"
+                <img src="https://www.mundoboaforma.com.br/wp-content/uploads/2023/12/Coca-com-limao.jpg" width="300" height="300" loading="lazy" alt="Soft Drinks"
                   class="w-100 card-banner">
 
               </div>
@@ -230,10 +242,10 @@
                   </svg>
                 </div>
 
-                <h3 class="h3 card-title">French Fry</h3>
+                <h3 class="h3 card-title">Batata frita</h3>
 
                 <p class="card-text">
-                  French fries are long, thin pieces of potato fried in oil or fat. The French fries were thin and crispy.
+                  Batatas fritas douradas e crocantes por fora, macias e saborosas por dentro. Preparadas com batatas selecionadas e fritas na temperatura ideal para garantir a crocância perfeita. Acompanhamento ideal para qualquer refeição!
                 </p>
 
                 <img src="./assets/images/French Fry.jpg" width="300" height="300" loading="lazy" alt="French Fry"
@@ -264,10 +276,10 @@
                 <h3 class="h3 card-title">Burger Kingo</h3>
 
                 <p class="card-text">
-                  the classic cheeseburger. With succulent beef, melted cheese, lettuce, tomato and a delicious sauce to finish this masterpiece, the recipe is a global and irresistible success.
+                  Do clássico ao gourmet, nossos hambúrgueres são perfeitos para matar sua fome e te proporcionar um momento de puro prazer.
                 </p>
 
-                <img src="./assets/images/hamburger.webp" width="300" height="300" loading="lazy" alt="Burger Kingo"
+                <img src="https://static.itdg.com.br/images/640-440/49687a8a7a7110c7f560b9c7e96a9d0e/254679-shutterstock-364110890-1-.jpg" width="300" height="300" loading="lazy" alt="Burger Kingo"
                   class="w-100 card-banner">
 
               </div>
@@ -292,14 +304,13 @@
                   </svg>
                 </div>
 
-                <h3 class="h3 card-title">Chicken Masala</h3>
+                <h3 class="h3 card-title">Frango Assado</h3>
 
                 <p class="card-text">
-                  
-                    It consists of roasted chicken marinated in Indian spices and yogurt sauce.
+                  Um clássico irresistível! Frango inteiro assado lentamente até a perfeição, com pele dourada e crocante e carne suculenta e macia. Temperado com ervas aromáticas e especiarias selecionadas, um sabor que remete ao conforto da comida caseira.
                 </p>
 
-                <img src="./assets/images/promo-5.png" width="300" height="300" loading="lazy" alt="Chicken Masala"
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0XCCSGMXvrFS0li5bDmnoEP-pNPoZAxVqag&s" width="300" height="300" loading="lazy" alt="Chicken Masala"
                   class="w-100 card-banner">
 
               </div>
@@ -309,6 +320,10 @@
 
         </div>
       </section>
+
+
+
+
 
       <!-- 
         - #ABOUT
@@ -328,14 +343,14 @@
           <div class="about-content">
 
             <h2 class="h2 section-title">
-              Caferio, Burgers, and Best Pizzas
-              <span class="span">in Town!</span>
+              Caferio, Hambúrgueres e Melhores Pizzas
+              <span class="span">na cidade!</span>
             </h2>
 
             <p class="section-text">
-              The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during
-              the Jurchen
-              invasion of the 1120s, while it is also known that many restaurants were run by families.
+              Os restaurantes em Hangzhou também atendiam muitos chineses do norte que fugiram de Kaifeng para o sul durante
+              o Jurchen
+              invasão da década de 1120, embora também se saiba que muitos restaurantes eram administrados por famílias.
             </p>
 
             <ul class="about-list">
@@ -343,35 +358,39 @@
               <li class="about-item">
                 <ion-icon name="checkmark-outline"></ion-icon>
 
-                <span class="span">Delicious & Healthy Foods</span>
+                <span class="span">Alimentos deliciosos e saudáveis</span>
               </li>
 
               <li class="about-item">
                 <ion-icon name="checkmark-outline"></ion-icon>
 
-                <span class="span">Spacific Family And Kids Zone</span>
+                <span class="span">Zona Espaçosa para Família e Crianças</span>
               </li>
 
               <li class="about-item">
                 <ion-icon name="checkmark-outline"></ion-icon>
 
-                <span class="span">Music & Other Facilities</span>
+                <span class="span">Música e outras instalações</span>
               </li>
 
               <li class="about-item">
                 <ion-icon name="checkmark-outline"></ion-icon>
 
-                <span class="span">Fastest Food Home Delivery</span>
+                <span class="span">Entrega em domicílio de comida mais rápida</span>
               </li>
 
             </ul>
 
-            <button class="btn btn-hover">Order Now</button>
+            <button class="btn btn-hover">Encomende agora</button>
 
           </div>
 
         </div>
       </section>
+
+
+
+
 
       <!-- 
         - #FOOD MENU
@@ -380,20 +399,20 @@
       <section class="section food-menu" id="food-menu">
         <div class="container">
 
-          <p class="section-subtitle">Popular Dishes</p>
+          <p class="section-subtitle">Pratos Populares</p>
 
           <h2 class="h2 section-title">
-            Our Delicious <span class="span">Foods</span>
+            Nosso Delicioso <span class="span">Foods</span>
           </h2>
 
           <p class="section-text">
-            Food is any substance consumed to provide nutritional support for an organism.
+            Alimento é qualquer substância consumida para fornecer suporte nutricional a um organismo.
           </p>
 
           <ul class="fiter-list">
 
             <li>
-              <button class="filter-btn  active">All</button>
+              <button class="filter-btn  active">Todos</button>
             </li>
 
             <li>
@@ -401,11 +420,11 @@
             </li>
 
             <li>
-              <button class="filter-btn">Burger</button>
+              <button class="filter-btn">Hambúrguer</button>
             </li>
 
             <li>
-              <button class="filter-btn">Drinks</button>
+              <button class="filter-btn">Bebidas</button>
             </li>
 
             <li>
@@ -420,16 +439,16 @@
               <div class="food-menu-card">
 
                 <div class="card-banner">
-                  <img src="./assets/images/food-menu-1.png" width="300" height="300" loading="lazy"
+                  <img src="./assets/images/food-menu-3.png" width="300" height="300" loading="lazy"
                     alt="Fried Chicken Unlimited" class="w-100">
 
                   <div class="badge">-15%</div>
 
-                  <button class="btn food-menu-btn">Order Now</button>
+                  <button class="btn food-menu-btn">Peça agora</button>
                 </div>
 
                 <div class="wrapper">
-                  <p class="category">Chicken</p>
+                  <p class="category">Frango</p>
 
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
@@ -440,15 +459,15 @@
                   </div>
                 </div>
 
-                <h3 class="h3 card-title">Fried Chicken Unlimited</h3>
+                <h3 class="h3 card-title">Frango Frito Ilimitado</h3>
 
                 <div class="price-wrapper">
 
-                  <p class="price-text">Price:</p>
+                  <p class="price-text">Preço:</p>
 
-                  <data class="price">$49.00</data>
+                  <data class="price">R$49.00</data>
 
-                  <del class="del" value="69.00">$69.00</del>
+                  <del class="del" value="69.00">R$69.00</del>
 
                 </div>
 
@@ -464,11 +483,11 @@
 
                   <div class="badge">-10%</div>
 
-                  <button class="btn food-menu-btn">Order Now</button>
+                  <button class="btn food-menu-btn">Peça agora</button>
                 </div>
 
                 <div class="wrapper">
-                  <p class="category">Noddles</p>
+                  <p class="category">self service</p>
 
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
@@ -479,93 +498,15 @@
                   </div>
                 </div>
 
-                <h3 class="h3 card-title">Burger King Whopper</h3>
+                <h3 class="h3 card-title">Variedades</h3>
 
                 <div class="price-wrapper">
 
-                  <p class="price-text">Price:</p>
+                  <p class="price-text">Preço:</p>
 
-                  <data class="price" value="29.00">$29.00</data>
+                  <data class="price" value="29.00">R$29.00</data>
 
-                  <del class="del">$39.00</del>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="food-menu-card">
-
-                <div class="card-banner">
-                  <img src="./assets/images/food-menu-3.png" width="300" height="300" loading="lazy"
-                    alt="White Castle Pizzas" class="w-100">
-
-                  <div class="badge">-25%</div>
-
-                  <button class="btn food-menu-btn">Order Now</button>
-                </div>
-
-                <div class="wrapper">
-                  <p class="category">Pizzas</p>
-
-                  <div class="rating-wrapper">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </div>
-
-                <h3 class="h3 card-title">White Castle Pizzas</h3>
-
-                <div class="price-wrapper">
-
-                  <p class="price-text">Price:</p>
-
-                  <data class="price" value="49.00">$49.00</data>
-
-                  <del class="del">$69.00</del>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="food-menu-card">
-
-                <div class="card-banner">
-                  <img src="./assets/images/food-menu-4.png" width="300" height="300" loading="lazy"
-                    alt="Bell Burrito Supreme" class="w-100">
-
-                  <div class="badge">-20%</div>
-
-                  <button class="btn food-menu-btn">Order Now</button>
-                </div>
-
-                <div class="wrapper">
-                  <p class="category">Burrito</p>
-
-                  <div class="rating-wrapper">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </div>
-
-                <h3 class="h3 card-title">Bell Burrito Supreme</h3>
-
-                <div class="price-wrapper">
-
-                  <p class="price-text">Price:</p>
-
-                  <data class="price" value="59.00 ">$59.00</data>
-
-                  <del class="del">$69.00</del>
+                  <del class="del">R$39.00</del>
 
                 </div>
 
@@ -577,15 +518,15 @@
 
                 <div class="card-banner">
                   <img src="./assets/images/food-menu-5.png" width="300" height="300" loading="lazy"
-                    alt="Kung Pao Chicken BBQ" class="w-100">
+                    alt="White Castle Pizzas" class="w-100">
 
-                  <div class="badge">-5%</div>
+                  <div class="badge">-25%</div>
 
-                  <button class="btn food-menu-btn">Order Now</button>
+                  <button class="btn food-menu-btn">Peça agora</button>
                 </div>
 
                 <div class="wrapper">
-                  <p class="category">Nuggets</p>
+                  <p class="category">Angus</p>
 
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
@@ -596,15 +537,15 @@
                   </div>
                 </div>
 
-                <h3 class="h3 card-title">Kung Pao Chicken BBQ</h3>
+                <h3 class="h3 card-title">Carnes nobres</h3>
 
                 <div class="price-wrapper">
 
                   <p class="price-text">Price:</p>
 
-                  <data class="price" value="49.00">$49.00</data>
+                  <data class="price" value="49.00">R$99.00</data>
 
-                  <del class="del">$69.00</del>
+                  <del class="del">$159.00</del>
 
                 </div>
 
@@ -615,16 +556,16 @@
               <div class="food-menu-card">
 
                 <div class="card-banner">
-                  <img src="./assets/images/food-menu-6.png" width="300" height="300" loading="lazy"
-                    alt="Wendy's Chicken" class="w-100">
+                  <img src="./assets/images/food-menu-3.png" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
 
                   <div class="badge">-15%</div>
 
-                  <button class="btn food-menu-btn">Order Now</button>
+                  <button class="btn food-menu-btn">Peça agora</button>
                 </div>
 
                 <div class="wrapper">
-                  <p class="category">Chicken</p>
+                  <p class="category">Frango</p>
 
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
@@ -635,15 +576,93 @@
                   </div>
                 </div>
 
-                <h3 class="h3 card-title">Wendy's Chicken</h3>
+                <h3 class="h3 card-title">Frango Frito Ilimitado</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Preço:</p>
+
+                  <data class="price">R$49.00</data>
+
+                  <del class="del" value="69.00">R$69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-2.png" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-100">
+
+                  <div class="badge">-10%</div>
+
+                  <button class="btn food-menu-btn">Peça agora</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">self service</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Variedades</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Preço:</p>
+
+                  <data class="price" value="29.00">R$29.00</data>
+
+                  <del class="del">R$39.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-5.png" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100">
+
+                  <div class="badge">-25%</div>
+
+                  <button class="btn food-menu-btn">Peça agora</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Angus</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Carnes nobres</h3>
 
                 <div class="price-wrapper">
 
                   <p class="price-text">Price:</p>
 
-                  <data class="price" value="49.00">$49.00</data>
+                  <data class="price" value="49.00">R$99.00</data>
 
-                  <del class="del">$69.00</del>
+                  <del class="del">$159.00</del>
 
                 </div>
 
@@ -656,6 +675,10 @@
         </div>
       </section>
 
+
+
+
+
       <!-- 
         - #CTA
       -->
@@ -666,17 +689,17 @@
           <div class="cta-content">
 
             <h2 class="h2 section-title">
-              The Foodie Have Excellent Of
-              <span class="span">Quality Burgers!</span>
+              O Foodie tem excelente
+              <span class="span">Hambúrgueres de qualidade!</span>
             </h2>
 
             <p class="section-text">
-              The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during
-              the Jurchen
-              invasion of the 1120s, while it is also known that many restaurants were run by families.
+              Os restaurantes em Hangzhou também atendiam muitos chineses do norte que fugiram de Kaifeng para o sul durante
+              o Jurchen
+              invasão da década de 1120, embora também se saiba que muitos restaurantes eram administrados por famílias.
             </p>
 
-            <button class="btn btn-hover">Order Now</button>
+            <button class="btn btn-hover">Peça agora</button>
           </div>
 
           <figure class="cta-banner">
@@ -693,10 +716,581 @@
 
 
 
-    </article>
-   </main>
 
-  
+      <!-- 
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              Um momento de entrega <span class="span">Hora certa</span> & Lugar
+            </h2>
+
+            <p class="section-text">
+              Os restaurantes em Hangzhou também atendiam muitos chineses do norte que fugiram de Kaifeng para o sul durante
+              o Jurchen
+              invasão da década de 1120, embora também se saiba que muitos restaurantes eram administrados por famílias.
+            </p>
+
+            <button class="btn btn-hover">\Peça agora</button>
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+
+            <img src="./assets/images/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+              class="w-100 delivery-img" data-delivery-boy>
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Depoimentos</p>
+
+          <h2 class="h2 section-title">
+            Nossos clientes <span class="span">Comentários</span>
+          </h2>
+
+          <p class="section-text">
+            Alimento é qualquer substância consumida para fornecer nutrientes
+            suporte para um organismo.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Robert William</h3>
+
+                    <p class="testi-title">CEO Kingfisher</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Eu estaria perdido sem restaurante. Gostaria de agradecer pessoalmente pelo seu excelente
+                  produto."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Thomas Josef</h3>
+
+                    <p class="testi-title">CEO Getforce</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Eu estaria perdido sem restaurante. Gostaria de agradecer pessoalmente pelo seu excelente
+                  produto."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Charles Richard</h3>
+
+                    <p class="testi-title">CEO Angela</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "Eu estaria perdido sem restaurante. Gostaria de agradecer pessoalmente pelo seu excelente
+                  produto."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section section-divider gray banner">
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-1.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+
+                <div class="banner-item-content">
+                  <p class="banner-subtitle">50% Off Agora!</p>
+
+                  <h3 class="banner-title">Desconto para hambúrgueres deliciosos e saborosos!</h3>
+
+                  <p class="banner-text">Promoção de 50% somente esta semana</p>
+
+                  <button class="btn">\peça agora</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Pizza Deliciosa</h3>
+
+                  <p class="banner-text">50% off Agora</p>
+
+                  <button class="btn">Peça agora</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Hambúrgueres Americanos</h3>
+
+                  <p class="banner-text">50% off Agora</p>
+
+                  <button class="btn">Peça agora</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Pizza saborosa e vibrante</h3>
+
+                  <p class="banner-text">Promoção de 50% somente esta semana</p>
+
+                  <button class="btn">Peça agora</button>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section section-divider white blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Últimas postagens do blog</p>
+
+          <h2 class="h2 section-title">
+            Isto é tudo sobre <span class="span">Comida</span>
+          </h2>
+
+          <p class="section-text">
+            Alimento é qualquer substância consumida para fornecer suporte nutricional a um organismo.
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/blog-1.jpg" width="600" height="390" loading="lazy"
+                    alt="What Do You Think About Cheese Pizza Recipes?" class="w-100">
+
+                  <div class="badge">Pizza</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="meta-info" datetime="2022-01-01">Dez 01 2024</time>
+                    </a>
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <p class="meta-info">Jonathan Smith</p>
+                    </a>
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">O que você acha das receitas de pizza de queijo?</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Especialistas financeiros apoiam ou ajudam você a descobrir como você pode arrecadar mais fundos...
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Leia mais</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/blog-2.jpg" width="600" height="390" loading="lazy"
+                    alt="Making Chicken Strips With New Delicious Ingridents." class="w-100">
+
+                  <div class="badge">Hambúrguer</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="meta-info" datetime="2022-01-01">Dez 01 2024</time>
+                    </a>
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <p class="meta-info">Jonathan Smith</p>
+                    </a>
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Fazendo tiras de frango com novos ingredientes deliciosos.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Especialistas financeiros apoiam ou ajudam você a descobrir como você pode arrecadar mais fundos...
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Leia mais</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/blog-3.jpg" width="600" height="390" loading="lazy"
+                    alt="Innovative Hot Chessyraw Pasta Make Creator Fact." class="w-100">
+
+                  <div class="badge">Chicken</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="meta-info" datetime="2022-01-01">Dez 23 2024</time>
+                    </a>
+
+                    <a href="#" class="card-meta-link">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <p class="meta-info">Jonathan Smith</p>
+                    </a>
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Massa quente Chessyraw inovadora torna o criador um fato.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Especialistas financeiros apoiam ou ajudam você a descobrir como você pode arrecadar mais fundos...
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Leia mais</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">Foodie<span class="span">.</span></a>
+
+          <p class="footer-text">
+            Especialistas financeiros apoiam ou ajudam você a descobrir como você pode arrecadar mais fundos.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Informações de contato</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">+1 (062) 109-9222</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Info@YourGmail24.com</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">Rua das Palmeiras, 123, Bairro Primavera, São Paulo,SP</address>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Aberto</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Segunda a sexta: 08h00-22h00</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Rua das Palmeiras, 123, Bairro Primavera, São Paulo,SP</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Sabado: 10:00-16:00</p>
+          </li>
+
+        </ul>
+
+        <form action="" class="footer-form">
+
+          <p class="footer-list-title">Reserve a mesa</p>
+
+          <div class="input-wrapper">
+
+            <input type="text" name="full_name" required placeholder="Seu Nome" aria-label="Yuor Name"
+              class="input-field">
+
+            <input type="email" name="email_address" required placeholder="Email" aria-label="Email"
+              class="input-field">
+
+          </div>
+
+          <div class="input-wrapper">
+
+            <select name="total_person" aria-label="Total person" class="input-field">
+              <option value="person">Pessoa</option>
+              <option value="2 person">2 Pessoa</option>
+              <option value="3 person">3 Pessoa</option>
+              <option value="4 person">4 Pessoa</option>
+              <option value="5 person">5 Pessoa</option>
+            </select>
+
+            <input type="date" name="booking_date" aria-label="Reservation date" class="input-field">
+
+          </div>
+
+          <textarea name="message" required placeholder="Messagem" aria-label="Message" class="input-field"></textarea>
+
+          <button type="submit" class="btn">Reserve a mesa</button>
+
+        </form>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; 2024 <a href="#" class="copyright-link">Davi Silva</a> Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
   <!-- 
     - custom js link
   -->
